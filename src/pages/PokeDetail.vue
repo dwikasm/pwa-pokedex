@@ -38,7 +38,7 @@
               {{ statMapping[stat.stat.name] }}
             </div>
             <div class="stat-bar__base" :style="{
-              'width': `${stat.base_stat/maxStat*70}%`,
+              'width': `${stat.base_stat/maxStat*60}%`,
             }">
               {{ stat.base_stat }}
             </div>
@@ -250,7 +250,7 @@ export default {
   &__name {
     padding: 4px 8px;
     display: inline-block;
-    width: 30%;
+    width: 40%;
     background-color: var(--pokemon-color);
     text-align: center;
     border-top-left-radius: 6px;

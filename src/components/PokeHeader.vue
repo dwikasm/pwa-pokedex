@@ -60,7 +60,6 @@ export default {
   width: 100%;
   height: 70px;
   display: flex;
-  flex-flow: row nowrap;
   align-items: center;
   background-color: $color-primary;
   border-bottom: 2px solid white; // hehe
@@ -78,7 +77,7 @@ export default {
   flex: 1 1 auto;
   display: flex;
   flex-flow: row nowrap;
-  padding: 12px;
+  // padding: 12px;
 
   &__input {
     flex: 1 1 auto;
@@ -87,7 +86,8 @@ export default {
     border-radius: 6px;
   }
   &__button {
-    flex: 0 0 100px;
+    // flex: 0 0 100px;
+    flex: 1 1 auto;
     padding: 4px 8px;
     color: white;
     border-radius: 6px;

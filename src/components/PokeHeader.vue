@@ -6,8 +6,7 @@
     </div>
     <div class="poke-search">
       <input class="poke-search__input" type="text"
-        v-model.trim="pokemonName" :disabled="isSearching"
-        @keypress.enter="searchHandler(pokemonName)"/>
+        v-model.trim="pokemonName" :disabled="isSearching"/>
       <button class="poke-search__button" @click="searchHandler(pokemonName)">
         <template v-if="isSearching">searching...</template>
         <template v-else>search</template>

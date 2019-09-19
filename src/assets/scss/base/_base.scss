@@ -1,0 +1,115 @@
+:root {
+  --pokemon-color-darker: #F7F8FB;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $color-background;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $color-text;
+  // color: var(--pokemon-color-darker);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.color-normal {
+  background-color: $type-color-normal;
+  color: darken($type-color-normal, 20%);
+  border-color: darken($type-color-normal, 20%);
+}
+.color-fire {
+  background-color: $type-color-fire;
+  color: darken($type-color-fire, 20%);
+  border-color: darken($type-color-fire, 20%);
+}
+.color-water {
+  background-color: $type-color-water;
+  color: darken($type-color-water, 20%);
+  border-color: darken($type-color-water, 20%);
+}
+.color-electric {
+  background-color: $type-color-electric;
+  color: darken($type-color-electric, 20%);
+  border-color: darken($type-color-electric, 20%);
+}
+.color-grass {
+  background-color: $type-color-grass;
+  color: darken($type-color-grass, 20%);
+  border-color: darken($type-color-grass, 20%);
+}
+.color-ice {
+  background-color: $type-color-ice;
+  color: darken($type-color-ice, 20%);
+  border-color: darken($type-color-ice, 20%);
+}
+.color-fighting {
+  background-color: $type-color-fighting;
+  color: darken($type-color-fighting, 20%);
+  border-color: darken($type-color-fighting, 20%);
+}
+.color-poison {
+  background-color: $type-color-poison;
+  color: darken($type-color-poison, 20%);
+  border-color: darken($type-color-poison, 20%);
+}
+.color-ground {
+  background-color: $type-color-ground;
+  color: darken($type-color-ground, 20%);
+  border-color: darken($type-color-ground, 20%);
+}
+.color-flying {
+  background-color: $type-color-flying;
+  color: darken($type-color-flying, 20%);
+  border-color: darken($type-color-flying, 20%);
+}
+.color-psychic {
+  background-color: $type-color-psychic;
+  color: darken($type-color-psychic, 20%);
+  border-color: darken($type-color-psychic, 20%);
+}
+.color-bug {
+  background-color: $type-color-bug;
+  color: darken($type-color-bug, 20%);
+  border-color: darken($type-color-bug, 20%);
+}
+.color-rock {
+  background-color: $type-color-rock;
+  color: darken($type-color-rock, 20%);
+  border-color: darken($type-color-rock, 20%);
+}
+.color-ghost {
+  background-color: $type-color-ghost;
+  color: darken($type-color-ghost, 20%);
+  border-color: darken($type-color-ghost, 20%);
+}
+.color-dragon {
+  background-color: $type-color-dragon;
+  color: darken($type-color-dragon, 20%);
+  border-color: darken($type-color-dragon, 20%);
+}
+.color-dark {
+  background-color: $type-color-dark;
+  color: darken($type-color-dark, 20%);
+  border-color: darken($type-color-dark, 20%);
+}
+.color-steel {
+  background-color: $type-color-steel;
+  color: darken($type-color-steel, 20%);
+  border-color: darken($type-color-steel, 20%);
+}
+.color-fairy {
+  background-color: $type-color-fairy;
+  color: darken($type-color-fairy, 20%);
+  border-color: darken($type-color-fairy, 20%);
+}
